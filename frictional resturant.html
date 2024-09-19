@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>WENDY'S Restaurant</title>
+    <style>
+        body {
+            background-color: #fff;
+            color: #333;
+        }
+        .hero {
+            background: url('your-image-url.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .menu-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background: rgb(0, 0, 0);
+            color: beige;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">WENDY'S Restaurant</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <h1>Welcome to Wendy's Restaurant</h1>
+                <a href="#menu" class="btn btn-light">View Menu</a>
+            </div>
+        </section>
+
+        <section class="menu py-5" id="menu">
+            <div class="container">
+                <h1 class="text-center mb-4">Our Menu</h1>
+                <div class="row">
+                    <div class="col-md-4 text-center menu-item">
+                        <img src="https://img.freepik.com/free-photo/authentic-italian-pasta_24972-2333.jpg" alt="Lasagna" class="img-fluid">
+                        <h3>Dish 1</h3>
+                        <p>Lasagna • Emilia-Romagna Pasta</p>
+                        <span>7000</span>
+                    </div>
+                    <div class="col-md-4 text-center menu-item">
+                        <img src="https://img.freepik.com/premium-photo/fresh-italian-pizza-with-chicken-fillet-mushrooms-ham-salami-tomatoes-broccoli-cheese-black-background_2829-3102.jpg?w=740" alt="Pizza Tonda Romana" class="img-fluid">
+                        <h3>Dish 2</h3>
+                        <p>Pizza Tonda Romana</p>
+                        <span>7000</span>
+                    </div>
+                    <div class="col-md-4 text-center menu-item">
+                        <img src="https://t4.ftcdn.net/jpg/02/74/99/01/360_F_274990113_ffVRBygLkLCZAATF9lWymzE6bItMVuH1.jpg" alt="Caprese Chicken Burger" class="img-fluid">
+                        <h3>Dish 3</h3>
+                        <p>Caprese Chicken Burger</p>
+                        <span>9000</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about py-5" id="about">
+            <div class="container">
+                <h1 class="text-center mb-4">About Us</h1>
+                <p>
+                    WENDY's Restaurant opened its doors in May 2000. Our cuisine is characterized by constant transformation, and centered on three key elements of Italian and Mexican culture - corn, seafood, burgers, pasta, and vegetables. We use different techniques from Italian and Mexican heritage and approach them with a contemporary perspective. Our philosophy is to work with the highest quality producers and artisans, a deep commitment to sustainability, and providing a unique hospitality experience that feels distinctively Italian and Mexican.
+                </p>
+            </div>
+        </section>
+
+        <section class="contact py-5" id="contact">
+            <div class="container">
+                <h1 class="text-center mb-4">Contact Us</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="09117615595">
+                    </div>
+                    <div class="form-group">
+                        <label for="reservation">Reservation</label>
+                        <input type="text" class="form-control" id="reservation" placeholder="Reservation Details">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Send Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 WENDY'S Restaurant. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                    <img src="https://img.icons8.com/?size=48&id=13912&format=png" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                    <img src="https://img.icons8.com/?size=48&id=ULM26f07x6SD&format=gif" alt="Twitter" class="social-icon">
+                </a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                    <img src="https://img.icons8.com/?size=48&id=32323&format=png" alt="Instagram" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
